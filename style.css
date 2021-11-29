@@ -60,7 +60,7 @@ button{
   outline: none;
 }
 
-.b-params {
+.b__params {
   background: none;
   border: 0px;
   color: #888;
@@ -70,13 +70,13 @@ button{
   cursor: pointer;
 }
 
-.b-params:hover {
+.b__params:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 .labels,
-label[for="new-task"] {
+label[for="new__task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,12 +104,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="new__task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-input#new-task {
+input#new__task {
   width: 318px;
 }
 
@@ -153,7 +153,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#compl-tasks label {
+ul#compl__tasks label {
   text-decoration: line-through;
   color: #888;
 }
@@ -163,11 +163,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li.edit__mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul li.edit__mode label {
   display: none;
 }
