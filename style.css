@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.app-bg {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -44,7 +44,7 @@ li, h3 {
 input,button{
   outline:none;
 }
-button {
+.b-params {
   background: none;
   border: 0px;
   color: #888;
@@ -53,11 +53,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.b-params:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.labels,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -129,7 +129,7 @@ button.delete img:hover {
 
 /* Completed */
 ul#compl-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 

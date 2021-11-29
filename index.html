@@ -8,7 +8,7 @@
       media="screen"
       charset="utf-8">
   </head>
-  <body>
+  <body class="app-bg">
     <div class="wrapper-info">
       <img src="./eisenhower-matrix.jpg">
       <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
@@ -18,17 +18,17 @@
         <label for="new-task">Add Item</label>
         <div class="task-row-wrapper">
           <input id="new-task"class="task" type="text">
-          <button>Add</button>
+          <button class="b-params">Add</button>
         </div>
       </p>
-      <h3>Todo</h3>
+      <h3 class="labels">Todo</h3>
       <ul id="incompl-tasks">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="b-params edit">Edit</button>
+          <button class="b-params delete">
             <img src="./remove.svg">
           </button>
         </li>
@@ -36,20 +36,20 @@
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete">
+          <button class="b-params edit">Save</button>
+          <button class="b-params delete">
             <img src="./remove.svg">
           </button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="labels">Completed</h3>
       <ul id="compl-tasks">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
           <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+          <button class="b-params edit">Edit</button>
+          <button class="b-params delete">
             <img src="./remove.svg">
           </button>
         </li>
